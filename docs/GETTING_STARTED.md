@@ -112,9 +112,13 @@ func NewExitAction() *AgentAction
 - 处理工具调用和结果反馈
 - 支持最大迭代次数限制
 
-### 3.3 主要数据结构
+### 3.3 深入学习
 
-#### 3.3.1 State 结构体
+关于 ReAct 模式的详细介绍，请参考 [REACT_MODE.md](./REACT_MODE.md) 文档。
+
+### 3.4 主要数据结构
+
+#### 3.4.1 State 结构体
 
 ```go
 type State struct {
